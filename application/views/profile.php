@@ -62,7 +62,8 @@
             <div class="col-md-8 pr-3 pr-md-5 mb-9 mb-md-0">
 
                 <div class="w-90 mb-4 ml-5 justify">
-                    <?php $average = number_format(total_rating_user($user->id)/total_rating($user->id), 1) ?>
+                 
+                    <?php $average = number_format(total_rating_user($user->id)/5, 1) ?>
                         <?php if ($average != 0 && user()->enable_rating == 1): ?>
                             <p class="mb-1 mt-0">
                                 <?php for($i = 1; $i <= 5; $i++):?>

@@ -35,9 +35,9 @@
 */
 
 // The following values will probably need to be changed.
-$db['default']['username'] = "elassiouimohamed_gymanager";
-$db['default']['password'] = "+zd(8FkI[.%SlCsx~*";
-$db['default']['database'] = "elassiouimohamed_gymanager";
+$db['default']['username'] = "root";
+$db['default']['password'] = "";
+$db['default']['database'] = "gymanager";
 
 // The following values can probably stay the same.
 $db['default']['hostname'] = "localhost";
